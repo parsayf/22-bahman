@@ -1,0 +1,77 @@
+@font-face {
+  font-family: redressed;
+  src: url("../fonts/Redressed-Regular.ttf");
+}
+
+@font-face {
+  font-family: "super";
+  src: url("../fonts/SupermercadoOne-Regular.ttf");
+}
+
+body {
+  font-family: redressed;
+  padding: 10% 25% 0 25%;
+  background-color: rgb(231, 231, 231);
+  background-image: url(../image/2022-02-11\ 14_17_00-3-49\ -\ Windows\ Photo\ Viewer.png);
+  background-repeat:unset;
+}
+
+p {
+  font-size: 22px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: rgb(243, 243, 243);
+  font-family: redressed;
+  font-size: 24px;
+}
+
+.text {
+  text-align: left;
+}
+
+button > img {
+  width: 33px;
+  height: inherit;
+  margin-bottom: -5px;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px gray;
+}
+
+h1 {
+  color: white;
+}
+
+.desc {
+  margin-top: -15px;
+  opacity: 0.6;
+  font-size: 24px;
+}
+  
+.happy {
+  background-color: red;
+  border-radius: 10px 10px;
+  padding: 5px 5px;
+}
+
+.b22{
+background-color: rgb(204, 204, 204);
+padding: 5px 5px;
+border-radius: 10px 10px;
+}
+
+.bahman{
+  background-color: darkgreen;
+  padding: 5px 5px;
+  border-radius: 10px 10px;
+}
